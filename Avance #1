@@ -1,0 +1,7 @@
+Contextualizacion: Se necesita hacer un programa en el que se desencripten y descompriman unos textos los cuales nos van a proporcionan. Estos textos han sido previamente pasados por una encriptacion con el metodo RLE o LZ78 y
+rotados en cada byte.
+
+Analisis y soluciones propuestas para el problema: Para este programa vamos primero a mirar de que tipo de metodo de compresion se uso, identificarlo, despues se podria como desencriptar, usar el metodo XOR y asi tambien rotar las
+combinaciones, despues viene la descompresion, y es usar alguno de los dos metodos, hasta que alguno de los dos de sentido a la pista que se da en el dataset.
+A la hora de hacer el diseño teniamos pensado empezar primero por lo que son la rotacion de los bits, despues mirar el metodo o modulo XOR, por ultimo probrar los metodos de descompresion de el mas facil (RLE) al mas complicado que es
+(LZ78) y asi llegar al que mas logica tenga para descomprimir el texto encriptado y comprimido.
